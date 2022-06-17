@@ -10,16 +10,16 @@ import { styles  } from './styles';
 import IllustrationImg from '../../assets/Ilustration.png';
 import logoSmall from '../../assets/LogoSmall.png';
 import { ButtonWhite } from '../../components/ButtonWhite';
-import { Background } from '../../components/Background';
+import { BackgroundWhite } from '../../components/BackgroundWhite';
 
 
 export  function HomeLoja() {
   return (
-    <Background>
-       <View style={styles.container}>
-        Home
-       </View>
-    
-    </Background>
+  <BackgroundWhite>
+    <View style={styles.container}>    
+    <Text style={styles.title}>Home</Text>
+     
+    </View>
+  </BackgroundWhite>
   );
 }

@@ -36,7 +36,7 @@ export function SignIn() {
 
   const handleNavigateHome = () => {
 
-    navigation.navigate('Homeloja');
+    navigation.navigate('HomeLoja');
     // navigation.goBack();
   }
 

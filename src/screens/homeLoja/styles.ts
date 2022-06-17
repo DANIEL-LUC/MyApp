@@ -5,8 +5,9 @@ import { theme } from '../../global/styles/theme';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',    
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    paddingHorizontal: 30    
   },
   image: {
     width: '100%',
@@ -21,13 +22,14 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 50
   },
   title: {
-    color: theme.colors.heading,
-    textAlign: 'center',
+    justifyContent: 'center',
+    color: theme.colors.black,
+    textAlign: 'left',
     fontWeight:'bold',
     fontSize: 40,
     marginBottom: 16,   
     fontFamily: theme.fonts.title700,
-    lineHeight: 40 
+    lineHeight: 125 
   },
   subtitle: {
     color: theme.colors.heading,
