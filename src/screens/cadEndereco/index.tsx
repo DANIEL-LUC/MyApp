@@ -42,8 +42,7 @@ export function CadEndereco() {
          Para começar, insira seu endereço {'\n'}
         </Text>
 
-        <TextInput style={styles.input} placeholder=
-        "Insira seu e-mail"
+        <TextInput style={styles.input} placeholder= ""
           //keyboardType='email-address'
           placeholderTextColor={theme.colors.primary}
           maxLength={20}>
