@@ -34,6 +34,12 @@ export function SignIn() {
     // navigation.goBack();
   }
 
+  const handleNavigateHome = () => {
+
+    navigation.navigate('Homeloja');
+    // navigation.goBack();
+  }
+
   return (
     <View style={styles.container}>
       <Image
@@ -81,10 +87,7 @@ export function SignIn() {
       </View>
 
       <View style={styles.controlsbutons}>
-        <Button
-          title="Continuar"
-
-        />
+        <Button title="Continuar" onPress={handleNavigateHome} />
       </View>
       <Image
         source={linha}

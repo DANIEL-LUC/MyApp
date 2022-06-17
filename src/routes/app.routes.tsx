@@ -10,6 +10,7 @@ import { CadDadosPessoais } from '../screens/cadDadosPessoais';
 import { CadEndereco } from '../screens/cadEndereco';
 import { CadFotoPerfil } from '../screens/cadFotoPerfil';
 import { PerfilCriado } from '../screens/perfilCriado';
+import { HomeLoja } from '../screens/homeLoja';
 
 const Stack = createStackNavigator();
 
@@ -26,7 +27,7 @@ export function AppRoutes() {
       <Stack.Screen name="CadEndereco" component={CadEndereco} />
       <Stack.Screen name="CadFotoPerfil" component={CadFotoPerfil} />
       <Stack.Screen name="PerfilCriado" component={PerfilCriado} />
-      
+      <Stack.Screen name="HomeLoja" component={HomeLoja} />
       
       
       
